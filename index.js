@@ -9,7 +9,8 @@ app.set('view engine', 'jade');
 
 app.use(connectAssets({
   paths: [
-    'assets/js'
+    'assets/js',
+    'assets/css'
   ]
 }));
 

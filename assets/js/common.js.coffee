@@ -20,5 +20,5 @@ flowContainer.append($element)
 renderer = createRenderer($element, engine)
 
 ctx = renderer.getContext()
-stave = new Vex.Flow.Stave(10, 0, 500)
+stave = new Vex.Flow.Stave(10, 0, 680)
 stave.addClef('treble').setContext(ctx).draw()
