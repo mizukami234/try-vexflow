@@ -1,0 +1,11 @@
+html
+  head
+    title= a
+  body
+    - var engine = 'svg'
+    div#flow-container(data-render-engine="#{engine}")
+    script(src='/vendor/jquery/dist/jquery.min.js')
+    script(src='/vendor/raphael/raphael-min.js')
+    script(src='/vendor/vexflow/releases/vexflow-min.js')
+    != js('common')
+

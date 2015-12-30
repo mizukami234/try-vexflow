@@ -1,0 +1,19 @@
+{
+  "name": "flditor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "connect-assets": "^5.0.1",
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "less": "^2.5.3",
+    "morgan": "^1.6.1"
+  }
+}

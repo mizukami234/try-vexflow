@@ -1,0 +1,22 @@
+{
+  "name": "flditor",
+  "main": "index.js",
+  "version": "0.0.0",
+  "authors": [
+    "Shun Mizukami <mizukami@viibar.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "vexflow": "~1.2.36",
+    "lodash": "~3.10.1",
+    "raphael": "~2.1.4"
+  }
+}
