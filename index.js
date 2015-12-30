@@ -16,7 +16,8 @@ app.use(connectAssets({
 app.use(morgan('combined'));
 
 app.get('/', function(req, res){
-  res.render('index');
+  var engine = req.query.engine || 'svg';
+  res.render('index', { engine: engine });
 });
 
 app.use('/static', express.static(path.join(__dirname, 'public')));
